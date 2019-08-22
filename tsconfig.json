@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+      "allowSyntheticDefaultImports": true,
+      "jsx": "react",
+      "module": "ESNext",
+      "moduleResolution": "node",
+      "noImplicitAny": true,
+      "sourceMap": true,
+      "target": "es2017",
+      "baseUrl": ".",
+      "paths": {
+          "CORE/*": [
+            "src/core/*"
+          ],
+        }
+  },
+  "exclude": [
+      "node_modules"
+  ],    
+}
